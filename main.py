@@ -33,26 +33,3 @@ def get_book_text(path):
     return f.read()
 
 main()
-
-
-# book_path = "books/frankenstein.txt"
-# text = get_book_text(book_path)
-# result = chars_counter(text)
-# sorted_res = dict(sorted(result.items(), key=lambda item: item[1]))
-# print(result)
-
-
-# for char in sorted_res:
-#   print(f"The '{char}' character was found {sorted_res[char]} times")
-
-
-# words_count = {}
-
-# for word in text.lower().split()[:100]:
-#   # print(word)
-#   if word not in words_count:
-#     words_count[word] = 1
-#   else:
-#     words_count[word] += 1
-
-# print(words_count)
